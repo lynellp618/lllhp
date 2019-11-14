@@ -1,0 +1,70 @@
+/* Professor Loveless - In class Demo - 11/14/19 */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu&display=swap');
+
+/*------------------ */
+/* General Style */
+/*------------------ */
+
+body {
+  /* CSS is applied from top to down. If two elements are targeted for modification, the code towards the bottom of the
+  page will take precedence over the code at the top. For more information, read: https://www.w3schools.com/css/css_specificity.asp */
+  padding: 20px;
+  padding-top: 30px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #dfdce3;
+}
+
+/* You can select multiple elements by listing them individually and seperating them with a comma */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+a, a:visited {
+  color: #fc4a1a;
+}
+
+a:hover {
+  color: #ff7f49;
+  text-decoration: none;
+}
+
+img {
+  margin-bottom: 10px; /* Adds space at the bottom of the image */
+}
+
+.emphasize {
+  background-color: #f7b733;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+/*------------------ */
+/* Header */
+/*------------------ */
+
+.website-title {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.header {
+  padding: 30px; /* Adds space inside the header */
+  background: #008b6e;
+  color: white;
+  margin-bottom: 40px; /* Adds space at the bottom of the header */
+}
+
+/*------------------ */
+/* Call to Action */
+/*------------------ */
+
+.call-to-action a {
+  color: #000;
+}
+
+.call-to-action a:hover {
+  color: #000;
+}
